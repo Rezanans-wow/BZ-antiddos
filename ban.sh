@@ -14,7 +14,7 @@ function yep_ipset () {
 	fi
 # What u do?
 	for i in $(echo "$BAD_IPV4"); do
-		ipset add ipset -A myBlackhole-4 BAD_IPV4 $i
+		ipset -A myBlackhole-4 BAD_IPV4 $i
 		echo "$PREFIX Added $i to BAD_IPV4 ipset."
 	done
 
@@ -26,8 +26,18 @@ function yep_iptables () {
 		echo "$PREFIX I think iptables is required for using this bash script."
 		return 1
 	fi
-    iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP
-    ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP
+		if ! iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP; then
+		iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP
+	fi
+    	if ! package_exists "ip6tables"; then
+		# Optional
+		return 0
+	fi
+	if ! ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP; then
+		ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP
+	fi
+	return 0
+    
 }
 
 function package_exists () {
