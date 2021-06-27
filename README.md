@@ -8,10 +8,12 @@ Installation
 1. Download script_antistresser.sh 
 2. Give +x permissions for bash script
 3. Start script
+
 Installation <b>in commands</b>
 1. (Can use curl, yum) wget https://raw.githubusercontent.com/Rezanans-wow/antiddos/main/script_antistresser.sh
 2. chmod +x script_antistresser.sh
 3. ./script_antistresser.sh
+
 Installation if have issues
 1. Download safemode_antistresser.sh
 2. Give +x permissions for bash script
