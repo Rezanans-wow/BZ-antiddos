@@ -4,6 +4,27 @@ Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 * Blocked stresser's ASN Zone
 * Some hotfixes (IMAP, Bad packets, bad query) <b>in OLD/Legacy only</b>
 
+Supported OS:
+| Status | Name |
+| ------- | ----- |
+| ✅ | Red Hat 8.X [Recommended]
+
+| ⚠️ | Debian 7 and lower
+| ✅ | Debian 8 
+| ✅ | Debian 10 
+
+| ❌ | Ubuntu 12.X - 14.X and lower
+| ⚠️ | Ubuntu 16.04
+| ✅ | Ubuntu 18.04
+| ✅ | Ubuntu 20.04
+| ⚠️ | Ubuntu 20.10
+
+| ❌ | Ubuntu Centos6 and lower
+| ⚠️ | Ubuntu Centos7
+| ⚠️ | Ubuntu Centos8
+
+
+
 Installation
 1. Download script_antistresser.sh 
 2. Give +x permissions for bash script
