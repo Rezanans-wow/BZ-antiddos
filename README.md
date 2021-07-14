@@ -23,6 +23,7 @@ Supported OS:
  ✔️ - Full support/tested
  ⚠️ - Requires additional packages
  ❌ - Doesn't work at all
+
 Installation
 1. Download script_antistresser.sh 
 2. Give +x permissions for bash script
