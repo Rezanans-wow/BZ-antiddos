@@ -11,14 +11,13 @@ Supported OS:
 | ⚠️ | Debian 7 and lower 
 | ✔️ | Debian 8 
 | ✔️ | Debian 10 
-| ❌ | Ubuntu 12.X - 14.X and lower
-| ⚠️ | Ubuntu 16.04
+| ❌ | Ubuntu 14.04 and lower
+| ✔️ | Ubuntu 16.04
 | ✔️ | Ubuntu 18.04
 | ✔️ | Ubuntu 20.04
-| ⚠️ | Ubuntu 20.10
 | ❌ | Ubuntu Centos6 and lower
-| ⚠️ | Ubuntu Centos7
-| ⚠️ | Ubuntu Centos8
+| ✔️ | Ubuntu Centos7
+| ✔️ | Ubuntu Centos8
 
  ✔️ - Full support/tested
  ⚠️ - Requires additional packages
