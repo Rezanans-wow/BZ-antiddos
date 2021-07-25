@@ -7,7 +7,7 @@ Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 * Firewall Request Reason <b>in BETA only</b>
 * Spookey Ports <b>in BETA only</b>
 
-* Some hotfixes (IMAP, Bad packets, bad query) <b>⚠️in OLD/Legacy only ⚠️</b>
+* Some hotfixes (IMAP, Bad packets, bad query) <b>in OLD/Legacy only [EOL]</b>
 
 Supported OS:
 | Status | Name |
