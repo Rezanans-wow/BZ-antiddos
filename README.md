@@ -1,6 +1,7 @@
 # Protection from bad ASN
 Little bash script, for block ip/subnet of bad ASN (What using Stressers)
- ⚠️ Beta version are not accurate
+
+⚠️ Beta version are not accurate
 
 * Blocked stresser's ASN Zone
 * Firewall Protocol Authorization <b>in BETA only</b>
