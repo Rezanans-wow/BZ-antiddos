@@ -1,7 +1,7 @@
 #!/bin/bash
 PREFIX="[Brain]"
 
-# BlockHole? YEP
+# BlockHole for reject connections
 ipset -N myBlackhole-4 hash:net family inet
 ipset -N myBlackhole-6 hash:net family inet6
 
@@ -58,7 +58,7 @@ else
 	echo "$PREFIX Failed to generate ipsets, script crashed."
 fi
 
-# IPTABLES? YEP
+# iptables for BlackHole
 
 iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP
 ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP
