@@ -50,4 +50,4 @@ Installation if have issues
 2. Give +x permissions for bash script
 3. Start script
 
-<h1>ITS ISNT PROTECT YOUR ON 100%, OR 50% ITS ONLY BLOCKING POPULAR STRESSERS NOT METHODS</h1>
+<h3>At the moment, this mini-script is not a way to protect against DDoS attacks. And only a way to block the "Bad" ASN providers, which are used by ip stressers</h3>
