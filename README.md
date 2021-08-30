@@ -35,6 +35,11 @@ Installation
 3. Start script
 
 Installation <b>in commands</b>
+1. wget https://github.com/Rezanans-wow/antiddos/releases/latest/download/script_antistresser-linux64.sh
+2. chmod +x script_antistresser.sh
+3. ./script_antistresser.sh
+
+Installation <b>in commands Classic</b>
 1. (Can use curl, yum) wget https://raw.githubusercontent.com/Rezanans-wow/antiddos/main/script_antistresser.sh
 2. chmod +x script_antistresser.sh
 3. ./script_antistresser.sh
