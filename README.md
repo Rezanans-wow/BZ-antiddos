@@ -1,3 +1,4 @@
+![](https://i.imgur.com/B0qM4s1.png)
 # Bad Zone-AntiDDoS (Stop bad ASN attack your server)
 Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 > Me are happy if you want to help me with this script! Or any fork, are encouraged
