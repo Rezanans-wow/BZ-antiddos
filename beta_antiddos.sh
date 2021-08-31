@@ -1,5 +1,14 @@
 #!/bin/bash
-PREFIX="[Brain]"
+while true; do
+    read -p "Do you wish to install BETA version of BZ-AntiDDoS?" yn
+    case $yn in
+        [Yy]* ) make install; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+PREFIX="[GBA-BETA]"
 
 # BlockHole? YEP
 ipset -N myBlackhole-4 hash:net family inet
