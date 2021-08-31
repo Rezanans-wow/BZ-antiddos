@@ -1,5 +1,5 @@
 #!/bin/bash
-PREFIX="[Bad Zone]"
+PREFIX="[GBA]"
 
 # BlockHole for reject connections
 ipset -N myBlackhole-4 hash:net family inet
