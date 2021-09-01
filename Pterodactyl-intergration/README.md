@@ -7,7 +7,7 @@ Little bash script, for block ip/subnet of bad ASN (What using Stressers) for Pt
 
 * Blocked stresser's ASN Zone
 
-* Some hotfixes (IMAP, Bad packets, bad query) <b>in OLD/Legacy only [EOL]</b>
+* Some patches, what not broke Docker Network (pterodactyl_network)
 
 Supported Docker Images:
 | Status | Name |
