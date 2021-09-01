@@ -51,5 +51,7 @@ Installation if have issues
 2. Give +x permissions for bash script
 3. Start script
 
+[![](https://i.imgur.com/s7SjO6m.png)](#)
+
 ✔️ Best work with CrowdSec
 <h3>At the moment, this mini-script is not a way to protect against DDoS attacks. And only a way to block the "Bad" ASN providers, which are used by ip stressers</h3>
