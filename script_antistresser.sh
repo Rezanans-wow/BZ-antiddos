@@ -1,4 +1,7 @@
 #!/bin/bash
+# BZ-AntiDDoS
+# Please, write: # sync; echo 3 > /proc/sys/vm/drop_caches for faster job.
+ 
 PREFIX="[GBA]"
 
 # BlockHole for reject connections
