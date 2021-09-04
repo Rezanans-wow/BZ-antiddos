@@ -58,7 +58,6 @@ Installation if have issues
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Rezanans-wow/BZ-antiddos/graphs/commit-activity)
 [![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Rezanans-wow/BZ-antiddos/master/LICENSE)
-[![Only 1.72 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)]()
 
 Version: [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Rezanans-wow/BZ-antiddos/blob/main/script_antistresser.sh)
 
