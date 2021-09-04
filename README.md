@@ -3,7 +3,6 @@
 Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 > Me are happy if you want to help me with this script! Or any fork, are encouraged
 
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Rezanans-wow/BZ-antiddos/)
 ⚠️ Beta version are not accurate
 
 * Blocked stresser's ASN Zone
@@ -54,3 +53,5 @@ Installation if have issues
 
 ✔️ Best work with CrowdSec
 <h3>At the moment, this mini-script is not a way to protect against DDoS attacks. And only a way to block the "Bad" ASN providers, which are used by ip stressers</h3>
+
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Rezanans-wow/BZ-antiddos/)
