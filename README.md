@@ -2,6 +2,7 @@
 # Bad Zone-AntiDDoS (Stop bad ASN attack your server)
 Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 > Me are happy if you want to help me with this script! Or any fork, are encouraged
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url = https://github.com/Rezanans-wow/BZ-antiddos/)
 
 ⚠️ Beta version are not accurate
 
