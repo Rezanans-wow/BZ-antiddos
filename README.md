@@ -60,7 +60,5 @@ Installation if have issues
 
 Version: [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Rezanans-wow/BZ-antiddos/blob/main/script_antistresser.sh)
 
-Total downloads: [![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://github.com/Rezanans-wow/BZ-antiddos/releases/)
-
 
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Rezanans-wow/BZ-antiddos/)
