@@ -54,4 +54,13 @@ Installation if have issues
 ✔️ Best work with CrowdSec
 <h3>At the moment, this mini-script is not a way to protect against DDoS attacks. And only a way to block the "Bad" ASN providers, which are used by ip stressers</h3>
 
+[![Bash Shell](https://badges.frapsoft.com/bash/v1/bash.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Rezanans-wow/BZ-antiddos/graphs/commit-activity)
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Rezanans-wow/BZ-antiddos/master/LICENSE)
+[![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)]()
+Version: [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Rezanans-wow/BZ-antiddos/blob/main/script_antistresser.sh)
+Total downloads: [![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://github.com/Rezanans-wow/BZ-antiddos/releases/)
+
+
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/Rezanans-wow/BZ-antiddos/)
