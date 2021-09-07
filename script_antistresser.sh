@@ -54,6 +54,11 @@ function package_exists () {
 if yep_ipset == 0; then
 	if yep_iptables == 0; then
 		echo "$PREFIX We are do it! Your iptables configuration loaded, have a nice day :)"
+		iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
+		iptables -A INPUT -p udp -m u32 --u32 "26&0xFFFFFFFF=0xfeff" -j DROP
+		iptables -A INPUT -p tcp --tcp-flags ALL NONE -j DROP
+		#iptables -A INPUT -p tcp -m multiport --destination-ports 100:60000 -j DROP
+		iptables-save
 	else
 		echo "$PREFIX Failed to configure IPTABLES."
 	fi
