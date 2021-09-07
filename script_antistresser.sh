@@ -58,6 +58,10 @@ if yep_ipset == 0; then
 		iptables -A INPUT -p udp -m u32 --u32 "26&0xFFFFFFFF=0xfeff" -j DROP
 		iptables -A INPUT -p tcp --tcp-flags ALL NONE -j DROP
 		#iptables -A INPUT -p tcp -m multiport --destination-ports 100:60000 -j DROP
+		iptables -A INPUT -p udp --dport 1900 -j DROP # SSDP Fix UDP
+		iptables -A INPUT -p icmp -m icmp --icmp-type address-mask-request -j DROP
+                iptables -A INPUT -p icmp -m icmp --icmp-type timestamp-request -j DROP
+                iptables -A INPUT -p icmp -m icmp --icmp-type 8 -m limit --limit 1/second -j ACCEPT
 		iptables-save
 	else
 		echo "$PREFIX Failed to configure IPTABLES."
