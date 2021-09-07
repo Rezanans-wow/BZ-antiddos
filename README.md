@@ -8,7 +8,10 @@ Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 * Blocked stresser's ASN Zone
 * Firewall Protocol Authorization <b>in BETA only</b>
 * Firewall Request Reason <b>in BETA only</b>
-* Spookey Ports <b>in BETA only</b>
+* Firewall SSDP Protocol killer 
+* Firewall UDP Resolver 
+* Firewall ICMP Request control
+* Spookey Ports 
 
 * Some hotfixes (IMAP, Bad packets, bad query) <b>in OLD/Legacy only [EOL]</b>
 
