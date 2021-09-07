@@ -26,9 +26,9 @@ Supported OS:
 | ✔️ | Ubuntu 16.04
 | ✔️ | Ubuntu 18.04
 | ✔️ | Ubuntu 20.04
-| ❌ | Ubuntu Centos6 and lower
-| ✔️ | Ubuntu Centos7
-| ✔️ | Ubuntu Centos8
+| ❌ | Centos6 and lower
+| ✔️ | Centos7
+| ✔️ | Centos8
 
  ✔️ - Full support/tested
  ⚠️ - Requires additional packages
