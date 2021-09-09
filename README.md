@@ -39,8 +39,8 @@ Installation
 2. Give +x permissions for bash script
 3. Start script
 
-Installation <b>in commands</b>
-1. `sh <(curl https://github.com/Rezanans-wow/antiddos/releases/latest/download/script_antistresser-linux64.sh || wget -O - https://github.com/Rezanans-wow/antiddos/releases/latest/download/script_antistresser-linux64.sh)`
+Installation <b>in commands - 1 Step</b>
+1. curl -s https://raw.githubusercontent.com/Rezanans-wow/antiddos/main/script_antistresser.sh | bash
 
 Installation <b>in commands Classic</b>
 1. (Can use curl, yum) wget https://raw.githubusercontent.com/Rezanans-wow/antiddos/main/script_antistresser.sh
