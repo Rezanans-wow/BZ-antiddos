@@ -41,6 +41,7 @@ Installation
 
 Installation <b>in commands - 1 Step [wget/curl]</b>
 1. curl -s https://raw.githubusercontent.com/Rezanans-wow/antiddos/main/script_antistresser.sh | bash
+
 1.1 wget -qO - https://raw.githubusercontent.com/Rezanans-wow/antiddos/main/script_antistresser.sh | bash
 
 Installation <b>in commands Classic</b>
