@@ -1,7 +1,7 @@
 ![](https://i.imgur.com/dlby7pI.png)
 # Bad Zone-AntiDDoS (Stop bad ASN attack your server)
 Little bash script, for block ip/subnet of bad ASN (What using Stressers)
-> Friedly for Forks!
+> Friendly for Forks!
 
 ⚠️ Beta version are not accurate
 
