@@ -1,22 +1,44 @@
 #!/bin/sh
 
-echo 'ITS LONG TIME PROCESS, PLEASE DONT EXIT BEFORE YOU SEEN FINISH MESSAGE!!!'
-echo 'ITS LONG TIME PROCESS, PLEASE DONT EXIT BEFORE YOU SEEN FINISH MESSAGE!!!'
-echo 'ITS LONG TIME PROCESS, PLEASE DONT EXIT BEFORE YOU SEEN FINISH MESSAGE!!!'
-echo 'ITS LONG TIME PROCESS, PLEASE DONT EXIT BEFORE YOU SEEN FINISH MESSAGE!!!'
+# Blyatiful ASCII art by senkodev
+printf '
+888888b.                        d8888          888    d8b 8888888b.  8888888b.            .d8888b.  
+888  "88b                      d88888          888    Y8P 888  "Y88b 888  "Y88b          d88P  Y88b 
+888  .88P                     d88P888          888        888    888 888    888          Y88b.      
+8888888K.  88888888          d88P 888 88888b.  888888 888 888    888 888    888  .d88b.   "Y888b.   
+888  "Y88b    d88P          d88P  888 888 "88b 888    888 888    888 888    888 d88""88b     "Y88b. 
+888    888   d88P  888888  d88P   888 888  888 888    888 888    888 888    888 888  888       "888 
+888   d88P  d88P          d8888888888 888  888 Y88b.  888 888  .d88P 888  .d88P Y88..88P Y88b  d88P 
+8888888P"  88888888      d88P     888 888  888  "Y888 888 8888888P"  8888888P"   "Y88P"   "Y8888P"  
+
+
+
+888                                                   
+888                                                   
+888                                                   
+888       .d88b.   .d88b.   8888b.   .d8888b 888  888 
+888      d8P  Y8b d88P"88b     "88b d88P"    888  888 
+888      88888888 888  888 .d888888 888      888  888 
+888      Y8b.     Y88b 888 888  888 Y88b.    Y88b 888 
+88888888  "Y8888   "Y88888 "Y888888  "Y8888P  "Y88888 
+                       888                        888 
+                  Y8b d88P                   Y8b d88P 
+                   "Y88P"                     "Y88P"  
+                                                                                                    
+'
+
+
+echo 'THIS PROCESS TAKES A LONG TIME, PLEASE DONT EXIT BEFORE YOU SEE THE FINISH MESSAGE!!!'
+echo 'THIS PROCESS TAKES A LONG TIME, PLEASE DONT EXIT BEFORE YOU SEE THE FINISH MESSAGE!!!'
+echo 'THIS PROCESS TAKES A LONG TIME, PLEASE DONT EXIT BEFORE YOU SEE THE FINISH MESSAGE!!!'
+echo 'THIS PROCESS TAKES A LONG TIME, PLEASE DONT EXIT BEFORE YOU SEE THE FINISH MESSAGE!!!'
 
 # Secure patching
-apt-get update
-apt install wget
-apt install curl
+apt-get update -y
+apt install -y wget curl
 
 # Setting up nload/tcpdump/dstat
-apt install nload
-apt install tcpdump
-apt install dstat
-apt install ipset
-apt install netfilter
-apt install nethog
+apt-get install -y nload tcpdump dstat ipset netfilter nethog
 
 echo 'Invalids packets patching..'
 iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
@@ -37,17 +59,11 @@ DOS_END="Patched DOS attacks!"
 # Secure patching
 echo $PATCH1
 apt-get update
-apt install wget
-apt install curl
+apt-get -y install wget curl
 echo $PATCH2
 
 # Setting up nload/tcpdump/dstat
-apt install nload
-apt install tcpdump
-apt install dstat
-apt install ipset
-apt install netfilter
-apt install nethog
+apt-get -y install nload tcpdump dstat ipset netfilter nethog
 
 iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
 iptables -t mangle -A PREROUTING -p tcp ! --syn -m conntrack --ctstate NEW -j DROP

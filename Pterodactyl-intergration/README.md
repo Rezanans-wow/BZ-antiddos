@@ -3,7 +3,7 @@
 Little bash script, for block ip/subnet of bad ASN (What using Stressers) for Pterodactyl.io!
 > Me are happy if you want to help me with this script! Or any fork, are encouraged
 
-⚠️ This is are under development
+⚠️ This project is still under development
 
 * Blocked stresser's ASN Zone
 
@@ -19,7 +19,7 @@ Supported Docker Images:
 
  ✔️ - Full support/tested
  ⚠️ - Requires additional packages
- ❌ - Doesn't work at all
+ ❌ - Does not work at all
 
 Installation - Egg only
 1. Add to your egg
@@ -36,5 +36,5 @@ Installation <b>Global - Launcher</b>
 2. -
 3. -
 
-✔️ Best work with CrowdSec
+✔️ Works best with CrowdSec
 <h3>At the moment, this mini-script is not a way to protect against DDoS attacks. And only a way to block the "Bad" ASN providers, which are used by ip stressers</h3>

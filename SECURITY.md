@@ -8,19 +8,19 @@ Supported OS:
 | Status | Name |
 | ------- | ----- |
 | ✔️ | Red Hat 8.X [Recommended]
-| ⚠️ | Debian 7 and lower 
+| ⚠️ | Debian 7 or lower 
 | ✔️ | Debian 8 
 | ✔️ | Debian 10 
-| ❌ | Ubuntu 14.04 and lower
+| ❌ | Ubuntu 14.04 or lower
 | ✔️ | Ubuntu 16.04
 | ✔️ | Ubuntu 18.04
 | ✔️ | Ubuntu 20.04
-| ❌ | Centos6 and lower
+| ❌ | Centos6 or lower
 | ✔️ | Centos7
 | ✔️ | Centos8
 
  ✔️ - Full support/tested
- ⚠️ - Requires additional pa
+ ⚠️ - Requires additional packages
 
 ## Reporting a Vulnerability
 
