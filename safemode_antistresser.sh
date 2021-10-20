@@ -1,21 +1,6 @@
 #!/bin/bash
 PREFIX="[Brain]"
 
-# Blyatiful ASCII art by senkodev
-printf '
-888888b.                        d8888          888    d8b 8888888b.  8888888b.            .d8888b.  
-888  "88b                      d88888          888    Y8P 888  "Y88b 888  "Y88b          d88P  Y88b 
-888  .88P                     d88P888          888        888    888 888    888          Y88b.      
-8888888K.  88888888          d88P 888 88888b.  888888 888 888    888 888    888  .d88b.   "Y888b.   
-888  "Y88b    d88P          d88P  888 888 "88b 888    888 888    888 888    888 d88""88b     "Y88b. 
-888    888   d88P  888888  d88P   888 888  888 888    888 888    888 888    888 888  888       "888 
-888   d88P  d88P          d8888888888 888  888 Y88b.  888 888  .d88P 888  .d88P Y88..88P Y88b  d88P 
-8888888P"  88888888      d88P     888 888  888  "Y888 888 8888888P"  8888888P"   "Y88P"   "Y8888P"  
-                                                                                                    
-                                                                                                    
-                                                                                                    '
-
-
 # BlockHole? YEP
 ipset -N myBlackhole-4 hash:net family inet
 ipset -N myBlackhole-6 hash:net family inet6
