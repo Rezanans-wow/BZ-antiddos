@@ -1,6 +1,6 @@
 #!/bin/bash
 # BZ-AntiDDoS
-# Please, write: # sync; echo 3 > /proc/sys/vm/drop_caches for faster job.
+# Please, type command: # sync; echo 3 > /proc/sys/vm/drop_caches for faster job.
  
 PREFIX="[GBA]"
 
