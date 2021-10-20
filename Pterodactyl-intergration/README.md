@@ -3,7 +3,7 @@
 Little bash script, for block ip/subnet of bad ASN (What using Stressers) for Pterodactyl.io!
 > Me are happy if you want to help me with this script! Or any fork, are encouraged
 
-⚠️ This is are under development
+⚠️ Not released yet
 
 * Blocked stresser's ASN Zone
 
