@@ -18,7 +18,7 @@ function yep_ipset () {
 # Get super bad ASN ips
 	BAD_IPV4=$(curl -s https://raw.githubusercontent.com/Rezanans-wow/antiddos/main/ip-db/bad_ip)
 	if [ $? -ne 0 ]; then
-		echo "$PREFIX Failed download bad IP list! Firewall blocking requests to github? No internet connection?"
+		echo "$PREFIX Failed download bad IP list! Seems we cant connect to network"
 		return 1
 	fi
 # What u do?
