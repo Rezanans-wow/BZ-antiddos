@@ -18,17 +18,18 @@ Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 Supported OS:
 | Status | Name |
 | ------- | ----- |
-| ✔️ | Red Hat 8.X [Recommended]
-| ⚠️ | Debian 7 and lower 
-| ✔️ | Debian 8 
 | ✔️ | Debian 10 
-| ❌ | Ubuntu 14.04 and lower
-| ✔️ | Ubuntu 16.04
-| ✔️ | Ubuntu 18.04
+| ✔️ | Debian 8 
+| ⚠️ | Debian 7 and lower 
 | ✔️ | Ubuntu 20.04
-| ❌ | Centos6 and lower
-| ✔️ | Centos7
+| ✔️ | Ubuntu 18.04
+| ✔️ | Ubuntu 16.04
+| ❌ | Ubuntu 14.04 and lower
 | ✔️ | Centos8
+| ✔️ | Centos7
+| ❌ | Centos6 and lower
+
+
 
  ✔️ - Full support/tested
  ⚠️ - Requires additional packages
