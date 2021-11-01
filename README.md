@@ -3,7 +3,7 @@
 Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 > Friendly for Forks!
 
-⚠️ Beta version are not accurate
+⚠️ Use safemode of stresser, if in process of installation you got conflicts
 
 * Main feature - Bad ASN DB
 * Firewall SSDP Protocol killer 
