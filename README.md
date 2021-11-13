@@ -2,6 +2,7 @@
 # Public Proxies
 Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 > Friendly for Pull Requests!
+
 Here is a public list of proxies. Which will be automatically added to the BZ blacklist
 
 
