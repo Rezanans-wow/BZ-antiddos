@@ -10,7 +10,7 @@ ipset -N myBlackhole-6 hash:net family inet6
 
 function yep_ipset () {
 # Get super bad ASN ips
-	BAD_IPV4=$(curl -s https://raw.githubusercontent.com/Rezanans-wow/BZ-antiddos/BZ-Bad-AS(N)/ip-db/bad_ip)
+	BAD_IPV4=$(curl -s https://raw.githubusercontent.com/Rezanans-wow/BZ-antiddos/Public-Proxies/proxy-list/pub-proxy.bz)
 	if [ $? -ne 0 ]; then
 		echo "$PREFIX Failed download bad IP list! Firewall blocking requests to github? No internet connection?"
 		return 1
