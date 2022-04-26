@@ -74,4 +74,4 @@ fi
 
 iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP
 ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP
-echo "$PREFIX | Operation finished, with reserve mode"
+echo "$PREFIX | Operation finished"
