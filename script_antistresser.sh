@@ -29,15 +29,15 @@ function yep_iptables () {
 		echo "$PREFIX I think iptables is required for using this bash script."
 		return 1
 	fi
-		if ! iptables -C -A INPUT -m set --match-set myBlackhole-4 src -j DROP; then
-		iptables -C -A INPUT -m set --match-set myBlackhole-4 src -j DROP
+		if ! iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP; then
+		iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP
 	fi
     	if ! package_exists "ip6tables"; then
 		# Optional
 		return 0
 	fi
-	if ! ip6tables -C -A INPUT -m set --match-set myBlackhole-6 src -j DROP; then
-		ip6tables -C -A INPUT -m set --match-set myBlackhole-6 src -j DROP
+	if ! ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP; then
+		ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP
 	fi
 	return 0
     
@@ -54,14 +54,15 @@ function package_exists () {
 if yep_ipset == 0; then
 	if yep_iptables == 0; then
 		echo "$PREFIX We are do it! Your iptables configuration loaded, have a nice day :)"
-		iptables -C -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
-		iptables -C -A INPUT -p udp -m u32 --u32 "26&0xFFFFFFFF=0xfeff" -j DROP
-		iptables -C -A INPUT -p tcp --tcp-flags ALL NONE -j DROP
-		#iptables -C -A INPUT -p tcp -m multiport --destination-ports 100:60000 -j DROP
-		iptables -C -A INPUT -p udp --dport 1900 -j DROP # SSDP Fix UDP
-		iptables -C -A INPUT -p icmp -m icmp --icmp-type address-mask-request -j DROP
-                iptables -C -A INPUT -p icmp -m icmp --icmp-type timestamp-request -j DROP
-                iptables -C -A INPUT -p icmp -m icmp --icmp-type 8 -m limit --limit 1/second -j ACCEPT
+		iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
+		iptables -A INPUT -p udp -m u32 --u32 "26&0xFFFFFFFF=0xfeff" -j DROP
+		iptables -A INPUT -p tcp --tcp-flags ALL NONE -j DROP
+		#iptables -A INPUT -p tcp -m multiport --destination-ports 100:60000 -j DROP
+		iptables -A INPUT -p udp --dport 1900 -j DROP # SSDP Fix UDP
+		iptables -A INPUT -p icmp -m icmp --icmp-type address-mask-request -j DROP
+                iptables -A INPUT -p icmp -m icmp --icmp-type timestamp-request -j DROP
+                iptables -A INPUT -p icmp -m icmp --icmp-type 8 -m limit --limit 1/second -j ACCEPT
+		iptables-save | uniq | iptables-restore
 	else
 		echo "$PREFIX Failed to configure IPTABLES."
 	fi
@@ -71,6 +72,6 @@ fi
 
 # iptables for BlackHole
 
-iptables -C -A INPUT -m set --match-set myBlackhole-4 src -j DROP
-ip6tables -C -A INPUT -m set --match-set myBlackhole-6 src -j DROP
+iptables -A INPUT -m set --match-set myBlackhole-4 src -j DROP
+ip6tables -A INPUT -m set --match-set myBlackhole-6 src -j DROP
 echo "$PREFIX | Operation finished, with reserve mode"
