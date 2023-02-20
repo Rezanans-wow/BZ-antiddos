@@ -6,13 +6,7 @@ Little bash script, for block ip/subnet of bad ASN (What using Stressers)
 
 ⚠️ Use safemode of stresser, if in process of installation you got conflicts
 
-* Main feature - Bad ASN DB
-* Firewall SSDP Protocol killer 
-* Firewall UDP Resolver 
-* Firewall ICMP Request control
-* Spookey Ports 
-
-* Some hotfixes (IMAP, Bad packets, bad query) <b>in OLD/Legacy only [EOL]</b>
+* Main feature - Block poor reputation ASN ips
 
 Supported OS:
 | Status | Name |
@@ -22,11 +16,12 @@ Supported OS:
 | ⚠️ | Debian 7 and lower 
 | ✔️ | Ubuntu 20.04
 | ✔️ | Ubuntu 18.04
-| ✔️ | Ubuntu 16.04
+| ⚠️ | Ubuntu 16.04
 | ❌ | Ubuntu 14.04 and lower
-| ✔️ | Centos8
+| ✔️ | Almalinux 8
+| ✔️ | Rocky 8
+| ⚠️ | Centos8
 | ✔️ | Centos7
-| ❌ | Centos6 and lower
 
 
 
